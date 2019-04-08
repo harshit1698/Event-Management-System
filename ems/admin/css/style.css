@@ -1,0 +1,106 @@
+body{
+	margin: 0 auto; 
+}
+.dashboard{
+	background-color: #191919; 
+	height: 100%;
+	z-index: 111;
+	position: fixed;
+}
+.logo{
+	padding: 2%;
+	margin-top: 10%;
+}
+nav{
+	margin-top: 20%;
+	position: absolute;
+}
+nav > ul ,.dropdown{
+	margin-left: -40px;
+	margin-right: -13px;
+}
+.dropdown{
+	margin-right: 0%;
+	background-color: white;
+	margin-left: -24%;
+}
+.dropdown > li{
+	list-style-type: none;
+	padding: 8% 24%;
+}
+nav > ul > li {
+	list-style-type: none;
+	padding: 8% 20%;
+}
+nav > ul > li > a,.dropdown > li > a{
+	padding: 10%;
+	color: white;
+}
+.dropdown >li > a
+{
+	color: black;
+}
+.dropdown >li > a:hover
+{
+	color: black;
+}
+nav > ul > li > a:hover{
+	color: white;
+	text-decoration: none;
+
+}
+nav > ul > li:hover ,{
+	background-color: rgba(10,10,10,0.7);
+}
+.dropdown > li:hover
+{
+		  background-color: #e3dddd;
+}
+.content{
+	background-color: #f3f3f4;
+	margin-left: 16%;
+
+}
+.top-heading{
+	margin: 0 2%;
+}
+.logout{
+	padding: 15%;
+
+}
+.logout > a{
+	color: #262121;
+}
+a:hover{
+	text-decoration: none;
+}
+.page-heading{
+	width: 100%;
+	height: 100%;
+	background-color: white;
+
+}
+.page-heading-content{
+	margin: 0 2%;
+}
+.ibox{
+	background-color: white;
+	width: 95%;
+	border: 1px solid rgba(0,0,0,0.2);
+	margin: 2% 2%;
+}
+.ibox > .ibox-heading > h3{
+	padding-left:2%;
+	
+}
+.ibox-table{
+	padding:2%;
+}
+@media only screen and (max-width: 500px)
+{
+	.dashboard{
+	
+	position: relative;
+}
+
+}*/
